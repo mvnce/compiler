@@ -1,0 +1,4 @@
+# Make sure more complex comparisons can be saved to variables
+val a = 5;
+val b = (a *= 2);
+val c = (a == b) || ((a != b) && (a > b));

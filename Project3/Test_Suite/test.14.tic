@@ -1,0 +1,91 @@
+# Ouput from Dr. Charles Ofria's sample compiler.
+  val_copy 1 s1  
+  val_copy 2 s2  
+  test_less s1 s2 s3 
+  test_nequ s3 0 s4 
+  jump_if_0 s4 end_bool_0               # AND!
+  val_copy 3 s5  
+  val_copy 4 s6  
+  test_less s5 s6 s7 
+  test_nequ s7 0 s4 
+end_bool_0: 
+  out_val s4   
+  val_copy 1 s8  
+  val_copy 2 s9  
+  test_gtr s8 s9 s10 
+  test_nequ s10 0 s11 
+  jump_if_0 s11 end_bool_1              # AND!
+  val_copy 3 s12  
+  val_copy 4 s13  
+  test_less s12 s13 s14 
+  test_nequ s14 0 s11 
+end_bool_1: 
+  out_val s11   
+  val_copy 1 s15  
+  val_copy 2 s16  
+  test_less s15 s16 s17 
+  test_nequ s17 0 s18 
+  jump_if_0 s18 end_bool_2              # AND!
+  val_copy 3 s19  
+  val_copy 4 s20  
+  test_gtr s19 s20 s21 
+  test_nequ s21 0 s18 
+end_bool_2: 
+  out_val s18   
+  val_copy 1 s22  
+  val_copy 2 s23  
+  test_gtr s22 s23 s24 
+  test_nequ s24 0 s25 
+  jump_if_0 s25 end_bool_3              # AND!
+  val_copy 3 s26  
+  val_copy 4 s27  
+  test_gtr s26 s27 s28 
+  test_nequ s28 0 s25 
+end_bool_3: 
+  out_val s25   
+  out_char '\n'                         # End print statements with a newline.
+  val_copy 5 s29  
+  val_copy 6 s30  
+  test_less s29 s30 s31 
+  test_nequ s31 0 s32 
+  jump_if_n0 s32 end_bool_4             # OR!
+  val_copy 7 s33  
+  val_copy 8 s34  
+  test_less s33 s34 s35 
+  test_nequ s35 0 s32 
+end_bool_4: 
+  out_val s32   
+  val_copy 5 s36  
+  val_copy 6 s37  
+  test_gtr s36 s37 s38 
+  test_nequ s38 0 s39 
+  jump_if_n0 s39 end_bool_5             # OR!
+  val_copy 7 s40  
+  val_copy 8 s41  
+  test_less s40 s41 s42 
+  test_nequ s42 0 s39 
+end_bool_5: 
+  out_val s39   
+  val_copy 5 s43  
+  val_copy 6 s44  
+  test_less s43 s44 s45 
+  test_nequ s45 0 s46 
+  jump_if_n0 s46 end_bool_6             # OR!
+  val_copy 7 s47  
+  val_copy 8 s48  
+  test_gtr s47 s48 s49 
+  test_nequ s49 0 s46 
+end_bool_6: 
+  out_val s46   
+  val_copy 5 s50  
+  val_copy 6 s51  
+  test_gtr s50 s51 s52 
+  test_nequ s52 0 s53 
+  jump_if_n0 s53 end_bool_7             # OR!
+  val_copy 7 s54  
+  val_copy 8 s55  
+  test_gtr s54 s55 s56 
+  test_nequ s56 0 s53 
+end_bool_7: 
+  out_val s53   
+  out_char '\n'                         # End print statements with a newline.

@@ -1,0 +1,10 @@
+# Remove contents past the '#' sign
+string test_str = "abc D3F#GHI";
+print("Before: ", test_str);
+val index = 0;
+while (index < test_str.size()) {
+  if (test_str[index] == '#')
+    test_str.resize(index);
+  index = index + 1;
+}
+print("After:  ", test_str);

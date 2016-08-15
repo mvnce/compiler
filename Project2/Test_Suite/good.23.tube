@@ -1,0 +1,4 @@
+# Make sure expressions can be used inside of random.
+val x = 17;
+val y = random(x + 3);
+print(y);

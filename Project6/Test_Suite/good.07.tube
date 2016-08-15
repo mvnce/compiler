@@ -1,0 +1,4 @@
+# Access an array value.
+
+string msg = "Did we generate proper output?";
+print(msg[7], msg[18], msg[23], msg[2], '!');

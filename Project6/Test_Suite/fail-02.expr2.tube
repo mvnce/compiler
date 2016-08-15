@@ -1,0 +1,4 @@
+# Using char variable in expression
+
+char a = 'a';
+print(12 + a);

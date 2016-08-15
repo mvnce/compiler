@@ -1,0 +1,9 @@
+# Testing expression in function call and
+# printing straight from functions.
+
+define val Good(val x) {
+  return x / 2;
+}
+
+val t = 16;
+print(Good(21 + t / 3));

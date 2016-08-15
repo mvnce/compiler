@@ -1,0 +1,2 @@
+# You must close all strings.
+string my_string = "This is my unterminated string.

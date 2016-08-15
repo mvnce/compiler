@@ -1,0 +1,2 @@
+# We should not also have commas before variable ID's in a declaration
+val , bad1, bad2, bad3;

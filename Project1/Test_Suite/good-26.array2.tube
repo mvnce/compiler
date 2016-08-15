@@ -1,0 +1,3 @@
+# Test the dot operator.
+my_array.size();
+my_array.resize(random(100) + 100);

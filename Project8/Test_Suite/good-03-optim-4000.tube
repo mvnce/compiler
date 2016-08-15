@@ -1,0 +1,14 @@
+# Constant folding opportunities, register allocation
+val x = random(10) + 20 + 30 + 40;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+print(x);
+

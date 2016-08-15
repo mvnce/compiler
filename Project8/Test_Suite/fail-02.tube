@@ -1,0 +1,7 @@
+# Should fail due to mis-match argument between define and declare.
+
+declare val fail2(val x, string y);
+
+define val fail2(val x, val y) {
+  return x;
+}

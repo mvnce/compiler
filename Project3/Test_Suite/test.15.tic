@@ -1,0 +1,147 @@
+# Ouput from Dr. Charles Ofria's sample compiler.
+  val_copy 0 s1  
+  test_nequ s1 0 s2 
+  jump_if_n0 s2 end_bool_0              # OR!
+  val_copy 1 s3  
+  test_nequ s3 0 s4 
+  jump_if_0 s4 end_bool_1               # AND!
+  val_copy 0 s5  
+  test_nequ s5 0 s4 
+end_bool_1: 
+  test_nequ s4 0 s2 
+end_bool_0: 
+  test_nequ s2 0 s6 
+  jump_if_n0 s6 end_bool_2              # OR!
+  val_copy 0 s7  
+  test_nequ s7 0 s6 
+end_bool_2: 
+  out_val s6   
+  out_char '\n'                         # End print statements with a newline.
+  val_copy 0 s8  
+  test_nequ s8 0 s9 
+  jump_if_n0 s9 end_bool_3              # OR!
+  val_copy 1 s10  
+  test_nequ s10 0 s11 
+  jump_if_0 s11 end_bool_4              # AND!
+  val_copy 1 s12  
+  test_nequ s12 0 s11 
+end_bool_4: 
+  test_nequ s11 0 s9 
+end_bool_3: 
+  test_nequ s9 0 s13 
+  jump_if_n0 s13 end_bool_5             # OR!
+  val_copy 0 s14  
+  test_nequ s14 0 s13 
+end_bool_5: 
+  out_val s13   
+  out_char '\n'                         # End print statements with a newline.
+  val_copy 1 s15  
+  test_nequ s15 0 s16 
+  jump_if_0 s16 end_bool_6              # AND!
+  val_copy 0 s17  
+  test_nequ s17 0 s16 
+end_bool_6: 
+  test_nequ s16 0 s18 
+  jump_if_n0 s18 end_bool_7             # OR!
+  val_copy 0 s19  
+  test_nequ s19 0 s20 
+  jump_if_0 s20 end_bool_8              # AND!
+  val_copy 1 s21  
+  test_nequ s21 0 s20 
+end_bool_8: 
+  test_nequ s20 0 s18 
+end_bool_7: 
+  out_val s18   
+  out_char '\n'                         # End print statements with a newline.
+  val_copy 1 s22  
+  test_nequ s22 0 s23 
+  jump_if_0 s23 end_bool_9              # AND!
+  val_copy 1 s24  
+  test_nequ s24 0 s23 
+end_bool_9: 
+  test_nequ s23 0 s25 
+  jump_if_n0 s25 end_bool_10            # OR!
+  val_copy 1 s26  
+  test_nequ s26 0 s27 
+  jump_if_0 s27 end_bool_11             # AND!
+  val_copy 0 s28  
+  test_nequ s28 0 s27 
+end_bool_11: 
+  test_nequ s27 0 s25 
+end_bool_10: 
+  out_val s25   
+  out_char '\n'                         # End print statements with a newline.
+  val_copy 1 s29  
+  test_nequ s29 0 s30 
+  jump_if_0 s30 end_bool_12             # AND!
+  val_copy 1 s31  
+  test_nequ s31 0 s32 
+  jump_if_n0 s32 end_bool_13            # OR!
+  val_copy 1 s33  
+  test_nequ s33 0 s32 
+end_bool_13: 
+  test_nequ s32 0 s30 
+end_bool_12: 
+  test_nequ s30 0 s34 
+  jump_if_0 s34 end_bool_14             # AND!
+  val_copy 0 s35  
+  test_nequ s35 0 s34 
+end_bool_14: 
+  out_val s34   
+  out_char '\n'                         # End print statements with a newline.
+  val_copy 1 s36  
+  test_nequ s36 0 s37 
+  jump_if_0 s37 end_bool_15             # AND!
+  val_copy 1 s38  
+  test_nequ s38 0 s37 
+end_bool_15: 
+  test_nequ s37 0 s39 
+  jump_if_0 s39 end_bool_16             # AND!
+  val_copy 1 s40  
+  test_nequ s40 0 s39 
+end_bool_16: 
+  test_nequ s39 0 s41 
+  jump_if_0 s41 end_bool_17             # AND!
+  val_copy 1 s42  
+  test_nequ s42 0 s41 
+end_bool_17: 
+  test_nequ s41 0 s43 
+  jump_if_0 s43 end_bool_18             # AND!
+  val_copy 0 s44  
+  test_nequ s44 0 s43 
+end_bool_18: 
+  test_nequ s43 0 s45 
+  jump_if_0 s45 end_bool_19             # AND!
+  val_copy 1 s46  
+  test_nequ s46 0 s45 
+end_bool_19: 
+  out_val s45   
+  out_char '\n'                         # End print statements with a newline.
+  val_copy 0 s47  
+  test_nequ s47 0 s48 
+  jump_if_n0 s48 end_bool_20            # OR!
+  val_copy 0 s49  
+  test_nequ s49 0 s48 
+end_bool_20: 
+  test_nequ s48 0 s50 
+  jump_if_n0 s50 end_bool_21            # OR!
+  val_copy 0 s51  
+  test_nequ s51 0 s50 
+end_bool_21: 
+  test_nequ s50 0 s52 
+  jump_if_n0 s52 end_bool_22            # OR!
+  val_copy 0 s53  
+  test_nequ s53 0 s52 
+end_bool_22: 
+  test_nequ s52 0 s54 
+  jump_if_n0 s54 end_bool_23            # OR!
+  val_copy 1 s55  
+  test_nequ s55 0 s54 
+end_bool_23: 
+  test_nequ s54 0 s56 
+  jump_if_n0 s56 end_bool_24            # OR!
+  val_copy 1 s57  
+  test_nequ s57 0 s56 
+end_bool_24: 
+  out_val s56   
+  out_char '\n'                         # End print statements with a newline.

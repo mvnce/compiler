@@ -1,0 +1,3 @@
+# Simple type-error in assignment
+
+char a = 1;

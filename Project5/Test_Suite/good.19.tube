@@ -1,0 +1,2 @@
+# Make sure that multiple strings can be printed in the same line.
+print("good", '.', 19, '.', "tube");

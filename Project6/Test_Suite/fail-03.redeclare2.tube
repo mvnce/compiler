@@ -1,0 +1,7 @@
+# You cannot redeclare a variable in the same scope even with another scope in between.
+
+val a = 20;
+{
+  val b = 10;
+}
+val a = 0;

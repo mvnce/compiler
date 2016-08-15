@@ -1,0 +1,7 @@
+# Fail due to extra comma in define.
+
+define val test_fun ( , val var1) {
+  return var1 + 5;
+}
+
+print(test_fun(5));

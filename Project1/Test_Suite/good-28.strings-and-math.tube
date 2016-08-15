@@ -1,0 +1,3 @@
+# Play with strings and math.
+string my_string = "Never fear, compilers are here!";
+print my_string.size() * 1.5 + -60;

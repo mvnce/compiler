@@ -1,0 +1,7 @@
+# Fail because function define has fewer args than its declare.
+
+declare val fail5(val x, val y, val z);
+
+define val fail5(val x, val y) {
+  return x + y * 2;
+}

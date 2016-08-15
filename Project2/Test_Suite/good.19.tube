@@ -1,0 +1,5 @@
+# Test out boolean operators
+val a = 5;
+val b = (a *= 2);
+print((a == b) && (a != b) && (a < b) && (a <= b) && (a > b) && (a >= b));
+print((a == b) || (a != b) || (a < b) || (a <= b) || (a > b) || (a >= b));

@@ -1,0 +1,7 @@
+# Longer expression test...
+val in1 = 42;
+val in2 = 91;
+val output = (in2 - in1) / 7 * 2 + 52 / 13 + 2;
+output /= 50 / 10;
+output += output > 4 + 2;
+print(output - 2.4);

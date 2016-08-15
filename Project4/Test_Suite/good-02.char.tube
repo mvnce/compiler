@@ -1,0 +1,4 @@
+# Simple character printing...
+
+char b = 'a';
+print(b);

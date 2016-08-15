@@ -1,0 +1,7 @@
+# Should Raise an error
+define val max(val x, val y) {
+       if (x > y) return x;
+       return y;
+}
+
+print(max(1, 2), max('a', 'b'));

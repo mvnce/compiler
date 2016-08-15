@@ -1,0 +1,6 @@
+# Define inside an if-statement block...
+
+val a = 4;
+if (a < 5) {
+  define val TestFun() { print(a); }
+}

@@ -1,0 +1,3 @@
+# Using char in expression
+
+print(12 + 'a');

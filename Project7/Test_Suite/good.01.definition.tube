@@ -1,0 +1,5 @@
+# A simple test of define w/out even calling the function...
+
+define val Inc(val x) {
+  return x + 1;
+}

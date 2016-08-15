@@ -1,0 +1,3 @@
+# Resize can't take negative numbers
+string x = "hi";
+x.resize(-1);

@@ -1,0 +1,3 @@
+# Assign a literal string before printing it.
+string mine = "This is MY string!!!";
+print(mine);

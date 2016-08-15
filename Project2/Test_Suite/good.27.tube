@@ -1,0 +1,3 @@
+# Test printing a variable followed by an integer.
+val b = 10.01;
+print(b, 24);

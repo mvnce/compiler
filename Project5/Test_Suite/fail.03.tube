@@ -1,0 +1,2 @@
+# This test makes sure that your program doesn't allow an array without a type.
+array my_array;

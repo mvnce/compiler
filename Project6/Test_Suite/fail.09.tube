@@ -1,0 +1,2 @@
+# Make sure string literals can't be assigned to array(int).
+array(val) test_array = "This is not a int array!";

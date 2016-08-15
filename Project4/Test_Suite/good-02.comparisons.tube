@@ -1,0 +1,4 @@
+# Make sure we can compare characters.
+
+char my_char = 'Q';
+print(my_char < 'A', my_char < 'Z', my_char <= 'Q');

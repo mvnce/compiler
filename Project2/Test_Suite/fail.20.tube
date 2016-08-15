@@ -1,0 +1,2 @@
+# Random cannot have more than one argument
+val x = random(2, 8);

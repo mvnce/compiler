@@ -1,0 +1,3 @@
+# Test printing a variable.
+val a = 20;
+print(a);

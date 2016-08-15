@@ -1,0 +1,18 @@
+# A sample program that tries to concatenate two strings together.
+string my_string1 = "This is a two-part ";
+string my_string2 = "sentence.";
+
+string cat_string = "";
+cat_string.resize(my_string1.size() + my_string2.size());
+val index = 0;
+while (index < my_string1.size()) {
+  cat_string[index] = my_string1[index];
+  index = index + 1;
+}
+index = 0;
+while (index < my_string2.size()) {
+  cat_string[my_string1.size() + index] = my_string2[index];
+  index = index + 1;
+}
+
+print(cat_string);

@@ -1,0 +1,4 @@
+# Make sure that string and array(char) are treated the same.
+array(char) my_char_array;
+string my_string = my_char_array;
+print(1+1+1);

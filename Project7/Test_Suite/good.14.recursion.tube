@@ -1,0 +1,13 @@
+# A recursive way of summing up sequential ints (terrible algoithmically!)
+
+define val Sum(val x) {
+  if(x <= 0) {
+    return 0;
+  }
+  return x + Sum(x-1);
+}
+
+val i = 0;
+while (i < 25) {
+  print(Sum(i+=1));
+}

@@ -1,0 +1,2 @@
+# Test all sorts of other code in a string (it should just be a string!)
+"val x = random(1.44) + print('r') * @;"

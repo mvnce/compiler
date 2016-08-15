@@ -1,0 +1,5 @@
+# Continue syntax error
+while(1) {
+  break;
+  continue 4;
+}

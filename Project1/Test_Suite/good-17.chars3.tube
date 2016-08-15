@@ -1,0 +1,2 @@
+# Make sure we can have '#' within a char.
+'#' 123

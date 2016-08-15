@@ -1,0 +1,9 @@
+# Simple test of declare
+
+declare val TestFun(val a);
+
+print(TestFun(12));
+
+define val TestFun(val a) {
+  return a * 2;
+}

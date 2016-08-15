@@ -1,0 +1,2 @@
+# Random without a value.
+val x = random();

@@ -1,0 +1,3 @@
+# Simple type-error in assignment
+
+val a = 'a';

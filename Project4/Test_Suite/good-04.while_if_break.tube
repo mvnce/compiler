@@ -1,0 +1,13 @@
+# Test the break command.
+
+val countdown = 10;
+
+while (countdown > -10) {
+  print(countdown);
+  countdown -= 1;
+  if (countdown == 0) {
+    print(0,0,0,0,0);  # This should print right after 1!
+    break;
+    print(1,1,1,1,1);  # This should never print!
+  }
+}

@@ -1,0 +1,5 @@
+# Test some math needs %right to be correct (mutliple assignements)
+val a = 6;
+val b = 7;
+a = b = 8;
+print(a, b);

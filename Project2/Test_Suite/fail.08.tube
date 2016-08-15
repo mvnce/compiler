@@ -1,0 +1,3 @@
+# Put a number before the equals...
+val my_var = 8;
+7 = my_var;

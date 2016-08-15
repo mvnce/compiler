@@ -1,0 +1,4 @@
+#testing the print statement with mulitple arguments.
+val a = 9;
+val b = a/9;
+print(a,b);

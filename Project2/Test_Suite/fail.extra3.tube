@@ -1,0 +1,3 @@
+# We must have a variable after any comma.
+val this, is=2, fine=3;
+val but, this, is, not,;

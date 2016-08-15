@@ -1,0 +1,9 @@
+# Operator precedence 4: conditionals and boolean operations.
+print(1 < 2 && 3 < 4,
+      1 > 2 && 3 < 4,
+      1 < 2 && 3 > 4,
+      1 > 2 && 3 > 4);
+print(5 < 6 || 7 < 8,
+      5 > 6 || 7 < 8,
+      5 < 6 || 7 > 8,
+      5 > 6 || 7 > 8);

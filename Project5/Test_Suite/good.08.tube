@@ -1,0 +1,5 @@
+# Setting an array index to a value
+
+string msg = "This is a test.";
+msg[14] = '!';
+print(msg);

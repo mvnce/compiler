@@ -1,0 +1,6 @@
+# Fail because function is used before defined
+val x = fail1(4);
+
+define val fail1(val a) {
+ return a + 1;
+}

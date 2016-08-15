@@ -1,0 +1,17 @@
+# register allocation of array pointer and val, constant folding/propagation
+# common subexpression elimination
+array(val) x;
+x.resize(10);
+val num = random(8);
+x[0] = num + 1;
+x[1] = num + 2;
+x[2] = num + 1;
+x[3] = num + 2;
+x[4] = num + 1;
+x[5] = num + 2;
+x[6] = num + 1;
+x[7] = num + 2;
+x[8] = num + 1;
+x[9] = num + 2;
+print(x);
+

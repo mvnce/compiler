@@ -1,0 +1,6 @@
+# A pound-sign should be usable in a char.
+char x = '#';  # This is legal!
+print(x);
+char y = '#'# So is this!
+;
+print(y);

@@ -1,0 +1,21 @@
+# Make sure variables can be safely shadowed many times.
+val a = 1;
+{
+  val a = 2;
+  {
+    val a = 3;
+    {
+      val a = 4;
+      {
+        val a = 5;
+        print(a);
+      }
+      print(a);
+    }
+    print(a);
+  }
+  print(a);
+}
+print(a);
+
+# Should print 5, 4, 3, 2, 1, with each digit on its own line.

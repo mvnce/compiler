@@ -1,0 +1,5 @@
+# A break should not be allowed at the highest level.
+
+val a = 1024;
+while (a > 0) print(a/=2);
+break;

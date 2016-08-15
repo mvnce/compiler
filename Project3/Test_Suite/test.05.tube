@@ -1,0 +1,13 @@
+# Test a print statement over multiple lines.
+val c = 5;
+print
+(
+5
+,
+c
+,
+4
++
+1
+)
+;

@@ -1,0 +1,2 @@
+# Using a type on the right-hand-side of an equation
+val a = val b;

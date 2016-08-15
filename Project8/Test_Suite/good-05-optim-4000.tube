@@ -1,0 +1,4 @@
+# algebraic simplification
+val x = random(10);
+print(x, '=', x * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0 * 0);
+

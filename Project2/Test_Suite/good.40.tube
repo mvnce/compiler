@@ -1,0 +1,8 @@
+# Longer expression test...
+val in1 = 42;
+val in2 = 91;
+val output = ((in2 - in1) * 2 + 52) / 15 - 8;
+output /= 20 / 10;
+output *= 1.5;
+output += output > 4 + 2;
+print(output);                # should be 8

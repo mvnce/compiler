@@ -1,0 +1,7 @@
+#Array Push
+#Should output 123
+array(val) xs;
+xs.push(1);
+xs.push(2);
+xs.push(3);
+print(xs);

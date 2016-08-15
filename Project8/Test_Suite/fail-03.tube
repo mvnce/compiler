@@ -1,0 +1,5 @@
+# Fail because function is never defined.
+
+declare val fail3(val x);
+
+val a = fail3(5);

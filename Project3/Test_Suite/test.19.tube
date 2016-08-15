@@ -1,0 +1,12 @@
+# Full test of all of the relationship operators
+val a = 5;
+val b = 10;
+
+print(a < b, a > b, a == b, a != b, a <= b, a >= b);
+#should print: 100110
+
+a *= 2;     # Now a and b are identical!
+print(a < b, a > b, a == b, a != b, a <= b, a >= b);
+#should print: 001011
+
+

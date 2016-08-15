@@ -1,0 +1,7 @@
+# Test printing num arrays.
+array(val) test_array;
+test_array.resize(3);
+test_array[0]=0;
+test_array[1]=0;
+test_array[2]=7;
+print(test_array);

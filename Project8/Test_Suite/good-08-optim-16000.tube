@@ -1,0 +1,16 @@
+# register allocation of array pointer and val, constant folding/propagation
+array(val) x;
+x.resize(10);
+val value = random(10);
+x[0] = value;
+x[1] = value;
+x[2] = value;
+x[3] = value;
+x[4] = value;
+x[5] = value;
+x[6] = value;
+x[7] = value;
+x[8] = value;
+x[9] = value;
+print(x);
+

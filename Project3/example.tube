@@ -1,0 +1,8 @@
+# A example good file
+val a = 1;
+
+val b = 22;
+
+val c = 5;
+
+print(a, b, c);

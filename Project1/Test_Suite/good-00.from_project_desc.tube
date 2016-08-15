@@ -1,0 +1,4 @@
+val test_num = 3 * (7.2 + 12.1);  # This is my comment.
+# The next line intentionally left blank!;
+
+print test_num;

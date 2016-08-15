@@ -1,0 +1,34 @@
+# Ouput from Dr. Charles Ofria's sample compiler.
+  val_copy 5 s3  
+  val_copy s3 s1  
+  val_copy 10 s4  
+  val_copy s4 s2  
+  test_less s1 s2 s5 
+  out_val s5   
+  test_gtr s1 s2 s6 
+  out_val s6   
+  test_equ s1 s2 s7 
+  out_val s7   
+  test_nequ s1 s2 s8 
+  out_val s8   
+  test_lte s1 s2 s9 
+  out_val s9   
+  test_gte s1 s2 s10 
+  out_val s10   
+  out_char '\n'                         # End print statements with a newline.
+  val_copy 2 s11  
+  mult s1 s11 s12 
+  val_copy s12 s1  
+  test_less s1 s2 s13 
+  out_val s13   
+  test_gtr s1 s2 s14 
+  out_val s14   
+  test_equ s1 s2 s15 
+  out_val s15   
+  test_nequ s1 s2 s16 
+  out_val s16   
+  test_lte s1 s2 s17 
+  out_val s17   
+  test_gte s1 s2 s18 
+  out_val s18   
+  out_char '\n'                         # End print statements with a newline.

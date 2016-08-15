@@ -1,0 +1,4 @@
+# Divide up a compound assignment.
+val a = 43;
+a += 3;
+a *  = 3;

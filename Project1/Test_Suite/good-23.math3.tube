@@ -1,0 +1,4 @@
+# Test other math operators
+val c = 20 - 17;
+val d = 1.5 * 2.0;
+val e = 19.5 / 6.5;

@@ -1,0 +1,8 @@
+# While-If combo
+
+val x = 0;
+
+while (x <= 30) {
+  if (x!=3 && x!=17 && x!=22 && x!=29) print(x);   # Don't print specific values!
+  x += 1;
+}

@@ -1,0 +1,3 @@
+# Use an assignment inside of an expression.
+val a = 65.4321;
+val b = (a = 10);

@@ -1,0 +1,6 @@
+# Mix it all together
+string short_string = "x";
+string long_string = "And this is another string of mine with an 'X' in it.";
+char only_char = '!';
+val x = random(1.44) + print('r') * '@';
+print long_string, x;

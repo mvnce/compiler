@@ -1,0 +1,12 @@
+# A standard test of recursion.
+
+define val Fib(val x) {
+  if (x == 0) { return 0; }
+  if (x == 1) { return 1; }
+  return Fib(x-2) + Fib(x-1);
+}
+
+print(Fib(3));
+print(Fib(7));
+print(Fib(21));
+

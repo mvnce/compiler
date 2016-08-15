@@ -1,0 +1,2 @@
+# Not a legal identifier, so lexer should identify random as a command.
+val random;  

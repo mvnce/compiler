@@ -1,0 +1,7 @@
+val a = 1;
+val b = 1;
+val c = 1;
+7 || a = 2;   # 7 is true, so "or" must be true; no need to run a=2.
+0 && b = 2;   # 0 is false, so "and" must be false; no need to run b=2.
+7 && c = 2;   # 7 is true, so we need to test the second part and we set c=2.
+print(a, b, c);

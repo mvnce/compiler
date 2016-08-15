@@ -1,0 +1,23 @@
+# Test basic deeper scoping with reuse after out of scope.
+
+val a = 5;
+{
+  val b = 6;
+  {
+    val c = 7;
+    {
+      val d = 8;
+      print(d);
+    }
+    print(c);
+  }
+  print(b);
+}
+print(a);
+
+val b = 4;
+val c = 3;
+val d = 2;
+val e = 1;
+
+print(e,d,c,b,a);

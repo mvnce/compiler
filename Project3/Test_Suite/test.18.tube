@@ -1,0 +1,13 @@
+# Test expressions inside of random...
+val min = 10;
+val max = 20;
+print(random(max - min) + min);
+print(random(max - min) + min);
+print(random(max - min) + min);
+print(random(max - min) + min);
+print(random(max - min) + min);
+print(random(max - min) + min);
+print(random(max - min) + min);
+print(random(max - min) + min);
+print(random(max - min) + min);
+print(random(max - min) + min);

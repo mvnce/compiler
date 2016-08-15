@@ -1,0 +1,2 @@
+# Test operator precendence.
+print(80 - 10 * 2.5);

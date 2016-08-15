@@ -1,0 +1,8 @@
+# No body on the if, just the else!
+
+val a = 0;
+
+if (a); else a=200;
+if (a); else a=7;
+
+print(a); # 200

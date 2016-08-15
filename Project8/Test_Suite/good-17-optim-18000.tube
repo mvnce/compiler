@@ -1,0 +1,41 @@
+# Constant folding opportunities, register allocation
+
+declare val doBodyAgain();
+
+
+val x = random(10) + 20 + 30 + 40;
+
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+x = x + 1;
+
+val i = 0;
+while (i < 5) {
+  x = x + 1;
+  i = i + 1;
+}
+
+
+print(x);
+print(doBodyAgain());
+
+
+define val doBodyAgain() {
+  val y = random(10) + 20 + 30 + 40;
+
+  y = y + 1;
+  y = y + 1;
+  y = y + 1;
+  y = y + 1;
+  y = y + 1;
+
+  val j = 0;
+  while (j < 5) {
+    y = y + 1;
+    j = j + 1;
+  }
+  return y;
+}
+

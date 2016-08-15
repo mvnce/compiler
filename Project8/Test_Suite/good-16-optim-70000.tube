@@ -1,0 +1,28 @@
+# register allocation of array pointer and val, constant folding/propagation
+# common subexpression elimination, dead code elimination
+array(val) x;
+x.resize(10);
+val value = random(8);
+x[0] = value + 1;
+x[1] = value + 2;
+x[2] = value + 1;
+if (x[0] == value + 1 && x[1] == value + 2) x[3] = value + 2;
+if (x[0] == value + 1 && x[1] == value + 2) x[4] = value + 1 + value + 1 - value + 1;
+x[5] = value + 2;
+
+val i = 0;
+while (i < 4) {
+  x[5 + 1 + i] = value + i / 2 + 1;
+  x[5 + 1 + i] = value + i / 2 + 1;
+  x[5 + 1 + i] = value + i / 2 + 1;
+  if (1) x[5 + 1 + i] = value + i / 2 + 1;
+  if (1) x[5 + 1 + i] = value + i / 2 + 1;
+  if (1) x[5 + 1 + i] = value + i / 2 + 1;
+  if (0) x[5 + 1 + i] = value + i / 2 + 1;
+  if (0) x[5 + 1 + i] = value + i / 2 + 1;
+  if (0) x[5 + 1 + i] = value + i / 2 + 1;
+  i = i + 1;
+}
+
+print(x);
+

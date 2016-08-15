@@ -1,0 +1,8 @@
+# Testing functions without arguments.
+
+declare val good2();
+
+val x = good2();
+print(x);
+
+define val good2() { return 17; }

@@ -1,0 +1,2 @@
+# Using inappropriate math symbols
+val foo = 12 ** 2;

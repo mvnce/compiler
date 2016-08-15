@@ -1,0 +1,2 @@
+# Random without parentheses
+val x = random;

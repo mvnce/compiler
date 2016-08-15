@@ -1,0 +1,6 @@
+# And some braces.  Yes, "while" is currently an identifier, that'll change later.
+val i = -20;
+while (i < 20) {
+  print i;
+  i += 0.2;
+}

@@ -1,0 +1,2 @@
+# Multiple statements on the same line (including a print!)
+val a = 1; val b = 3.5; print(a+b);

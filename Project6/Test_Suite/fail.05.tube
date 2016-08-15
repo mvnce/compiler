@@ -1,0 +1,2 @@
+# The internal type cannot simply be another array.
+array(array(val)) my_array;

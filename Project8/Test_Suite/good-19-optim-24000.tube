@@ -1,0 +1,22 @@
+# Constant folding opportunities, register allocation, dead code elimination
+# function inlining
+
+declare val v(val in_num);
+
+val x = random(10) + 20 + 30 + 40;
+val y = 1 + 1 + v(1) + 1 + 1 + v(1) + 1 + 1 + v(1) + 1 + 1 + v(1) + 1 + 1 + v(1) + 1 + 1 + v(1) + 1;
+x = x + 1;
+x = x + 1;
+x = x + v(1);
+x = x + 1;
+x = x + 1;
+
+val i = 0;
+while (i < 5) {
+  x = x + 1;
+  i = i + 1;
+}
+
+print(x);
+
+define val v(val in_num) return in_num;

@@ -1,0 +1,11 @@
+# Make sure functions with no parameters can be called.  Also, use a global variable in a function.
+
+val t = 1;
+define val NoParameters() {
+  t *= 5;
+  return t + 5;
+}
+
+print(NoParameters());
+print(NoParameters());
+print(NoParameters());

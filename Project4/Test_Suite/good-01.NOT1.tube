@@ -1,0 +1,6 @@
+# Make sure NOT can do basic reversals.
+
+val a = 100;
+val b = 1000;
+print(a < b , a <= b , a == b , a >= b, a > b, a != b);
+print(!(a < b) , !(a <= b) , !(a == b) , !(a >= b), !(a > b), !(a != b));

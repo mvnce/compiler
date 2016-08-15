@@ -1,0 +1,4 @@
+# Re-using a variable name.
+val cur_var = 25;
+val cur_var2 = 26;
+val cur_var = cur_var2;

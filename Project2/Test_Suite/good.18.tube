@@ -1,0 +1,5 @@
+# Test out comparison operators
+val a = 0.5;
+val b = (a *= 2);
+print((a == b), (a != b), (a < b), (a <= b), (a > b), (a >= b));
+

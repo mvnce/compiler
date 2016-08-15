@@ -1,0 +1,15 @@
+# A test to make sure an array entry can be used as its type.
+array(val) index_chart;
+index_chart.resize(4);
+index_chart[0] = 15;
+index_chart[1] = 36;
+index_chart[2] = 25;
+index_chart[3] = 29;
+string full_string = "This is a string for us to index into.";
+string output_string;
+output_string.resize(index_chart.size());
+val index = 0;
+while (index < index_chart.size()) {
+  print(full_string[index_chart[index]]);
+  index = index + 1;
+}

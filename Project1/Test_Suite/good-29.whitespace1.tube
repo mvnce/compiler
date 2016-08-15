@@ -1,0 +1,6 @@
+# All whitespace is created equal.
+val	This_is_spaced_by_a_tab;
+val
+a_newline_is_all_that_parts_us;
+string	
+	j	=	"And a combination of both!";

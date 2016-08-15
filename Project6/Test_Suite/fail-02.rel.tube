@@ -1,0 +1,5 @@
+# Types must match when comparing variables.
+
+val abc = 92;
+char def = 'a';
+print(abc == def);

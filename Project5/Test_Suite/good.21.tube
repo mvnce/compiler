@@ -1,0 +1,14 @@
+# Make sure that intermediate code variable names can be used in source program
+val a0=1;   val s0=0.7;
+val a1=3;   val s1=0.9;
+val a2=7;   val s2=1.1;
+val a3=15;  val s3=1.3;
+val a4=31;  val s4=1.5;
+
+val result1 = a0*a1*a2*a3*a4;
+val result2 = s0*s1*s2*s3*s4;
+val result3 = a0/s0 + a1/s1 + a2/s2 + a3/s3 + a4/s4;
+
+print("result1 = ", result1);
+print("result2 = ", result2);
+print("result3 = ", result3);

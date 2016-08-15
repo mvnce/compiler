@@ -1,0 +1,6 @@
+# Make sure size and resize can still be used as variables.
+string x = "This is a test string!";
+val size = x.size();
+val resize = 14;
+x.resize(resize);
+print(x);

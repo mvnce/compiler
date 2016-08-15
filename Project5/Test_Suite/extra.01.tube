@@ -1,0 +1,8 @@
+# Array Pop
+string x = "ABC";
+val x_size = x.size();
+val i = 0;
+while(i < x_size) {
+  print(x.pop());
+  i += 1;
+}

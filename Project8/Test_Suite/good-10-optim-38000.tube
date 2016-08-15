@@ -1,0 +1,19 @@
+# copy propagation 
+val x = random(10);
+val y = random(10);
+val x1 = x;
+val x2 = x;
+val x3 = x2;
+val x4 = x2;
+val y1 = y;
+val y2 = y1;
+val y3 = y2;
+val y4 = y;
+val y5 = y + y1 - y2;
+
+val t_x = x + x1 + x2 + x3 + x4;
+val t_y = y + y1 + y2 + y3 + y4 + y5;
+
+print("t_x = 5 * ", x3, " = ", t_x);
+print("t_y = 6 * ", y5, " = ", t_y);
+

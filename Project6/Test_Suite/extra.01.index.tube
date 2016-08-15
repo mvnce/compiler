@@ -1,0 +1,4 @@
+# Strings must be resized before first index
+# Should print index out-of-bounds
+string x;
+x[0];

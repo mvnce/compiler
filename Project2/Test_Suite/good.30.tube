@@ -1,0 +1,4 @@
+# Test multiple print statements.
+print(10-2);
+print(2*2);
+print(18/24);

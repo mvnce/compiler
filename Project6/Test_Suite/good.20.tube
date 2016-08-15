@@ -1,0 +1,9 @@
+# Make sure an array can be accessed in a nested fashion...
+array(val) ref_chart;
+ref_chart.resize(4);
+ref_chart[0] = 1;
+ref_chart[1] = 2;
+ref_chart[2] = 3;
+ref_chart[3] = 0;
+
+print( ref_chart[ref_chart[0]], ref_chart[ref_chart[ref_chart[ref_chart[0]]]] );

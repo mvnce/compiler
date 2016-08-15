@@ -1,0 +1,4 @@
+# Simple type-error in assignment to variable
+
+char a = 'a';
+val b = a;

@@ -1,0 +1,7 @@
+# Function is called matching declare, but then define is a mis-match.
+
+declare val fail6();
+
+print(fail6());
+
+define val fail6(val x) { return 2 * x; }

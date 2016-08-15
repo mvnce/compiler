@@ -1,0 +1,5 @@
+# Operator precendence 2: comparisons
+print(4 < 7);
+print(4 + 4 > 7);     # 4 + 4 should happen first!
+print(4 > 7 - 4);     # 7 - 4 should happen first!
+print((4 > 7) + 11);  # Parens should happen first!

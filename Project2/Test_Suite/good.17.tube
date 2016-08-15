@@ -1,0 +1,3 @@
+# Use a compound assignment inside of an expression.
+val a = 5;
+val b = (a *= 2);

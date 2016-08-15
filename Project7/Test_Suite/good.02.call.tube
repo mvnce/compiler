@@ -1,0 +1,9 @@
+# Basic test of functions...
+
+define val Inc(val x) {
+  return x + 1;
+}
+
+val value = Inc(72);
+print(value);
+

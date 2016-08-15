@@ -1,0 +1,6 @@
+# Test compound operators in a chain.
+val a = 1;
+val b = 20;
+a *= b -= 11;
+print(a);
+print(b);

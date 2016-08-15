@@ -1,0 +1,2 @@
+# Can we declare multiple variables on a line?
+val a, b, c;

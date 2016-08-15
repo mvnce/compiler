@@ -1,0 +1,28 @@
+# Testing functions that take arrays as arguments, and make sure that you are
+# correctly using pass-by-value (original string gets changed in function.)
+
+define string Remove(string original, string toRemove) {
+  val i = 0;
+  while(i < toRemove.size()) {
+    char letter = toRemove[i];
+    val j = 0;
+    val k = 0;
+    string temp;
+    while (j < original.size()) {
+      if (original[j] != letter) {
+        temp.resize(k+1);
+	temp[k] = original[j];
+	k += 1;
+      }
+      j += 1;
+    }
+    original = temp;
+    i += 1;
+  }
+
+  return original;
+}
+
+string name = "Alphabet soup";
+string name2 = Remove(name, "aop");
+print(name, "   ", name2);

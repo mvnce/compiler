@@ -1,0 +1,17 @@
+# Nested if statements...
+
+val a = 100;
+
+if (a < 2 || a > 200) {
+  print(0);
+}
+else {
+  a/=2;  
+  if (a > 75) a = 222;
+  else {
+    a/=2;
+    a = a * a;
+  }
+}
+
+print(a);  # 625

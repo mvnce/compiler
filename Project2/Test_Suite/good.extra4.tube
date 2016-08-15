@@ -1,0 +1,4 @@
+# Can we assign values to only *some* of the parameters?
+val a=1, b, c=3;
+val d, e=5, f;
+print(a+c+e);

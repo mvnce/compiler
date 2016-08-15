@@ -1,0 +1,8 @@
+# Test basic scoping without shadowing
+
+val a = 5;
+{
+  val b = 6;
+  print(b);
+}
+print(a);

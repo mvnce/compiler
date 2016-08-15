@@ -1,0 +1,10 @@
+# Test more complex math.
+val f = (2.2 + 3.3) / 5 * 7 - 4.7;
+val g = -2;
+g += 5;
+val h = 0 || 1;
+val i = (f == g) == (g >= h) && g <= h;
+i *= 27 + 43.33333;
+i -= 6;
+i *= -0.5;
+print (i < 5), (i > 2), (i != 3);

@@ -1,0 +1,7 @@
+# A break cannot be used inside of an if-statement.
+
+val value = 55;
+if (value / 5 == 11) {
+  print(0);
+  break;
+}

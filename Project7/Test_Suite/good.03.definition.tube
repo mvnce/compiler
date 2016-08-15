@@ -1,0 +1,5 @@
+# Testing functions all on one line without braces.
+
+define val Good(val x) return x / 2;
+
+val value = Good(72);

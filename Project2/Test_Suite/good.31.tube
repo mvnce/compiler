@@ -1,0 +1,4 @@
+# Test some math that needs %left to be correct.
+# NOTE: %left is the default...
+val num30 = 100 - 20 * 3.5;
+print(num30);

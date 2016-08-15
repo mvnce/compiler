@@ -1,0 +1,4 @@
+# Make sure comparisons can be saved to variables
+val a = 0.5;
+val b = (a *= 2);
+val c = (a == b);

@@ -1,0 +1,4 @@
+#testing the print statement with multiple expression arguments.
+val a = 9;
+val b = a/9;
+print(a-5, b*2);

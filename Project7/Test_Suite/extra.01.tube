@@ -1,0 +1,17 @@
+define val max(val x, val y) {
+       if (x > y) return x;
+       return y;
+}
+
+define val max(val x, val y, val z) {
+       if (x > y) {
+       	  if (x > z) return x;
+	  return z;
+       }
+       if (y > z) {
+       	  return y;
+       } 
+       return z;   	 
+}		
+
+print(max(1, 2), max(5, 6, 3));

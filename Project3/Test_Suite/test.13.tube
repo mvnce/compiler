@@ -1,0 +1,3 @@
+# Test unary negation on variables!
+val a = -5;
+print(-12 + -a * -a);

@@ -1,0 +1,8 @@
+# Should fail due to mis-match return between define and declare.
+
+declare val fail1(val x);
+
+define array(val) fail1(val x) {
+  array(val) y;
+  return y;
+}

@@ -1,0 +1,5 @@
+# Basic test of creating all array types.
+array(val) my_int_array;
+array(char) my_char_array;
+string my_string;
+print(1+0+1+1-2+1);

@@ -1,0 +1,2 @@
+# Cannot treat a NOT as a boolean operator.
+val a = 3 ! a;

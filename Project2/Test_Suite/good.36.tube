@@ -1,0 +1,4 @@
+# Operator precendence 3: Unary negation.
+# NOTE: This was not tested in project 3, but you should not have syntax errors here!
+print(-3 * -4);  # Print 12!
+print(7 + -1);   # Print 6!

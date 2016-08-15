@@ -1,0 +1,6 @@
+# Make sure random values can be used.
+val a = random(20);
+val b = random(20) + 5;
+print(a);
+print(b);
+print(a > b);

@@ -1,0 +1,5 @@
+# Try using the resize() method
+
+array(char) x = "This string is short enough to experiment on, but still pretty long.";
+x.resize(20);
+print(x);

@@ -1,0 +1,8 @@
+# A define within a define.
+
+define val Fail5a() {
+  define val Fail5b() {
+    return 0;
+  }
+  return 1;
+}

@@ -1,0 +1,4 @@
+#Normal Program
+string x = "hi";
+print(x[1]);
+x.resize(4);

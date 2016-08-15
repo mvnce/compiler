@@ -1,0 +1,13 @@
+# A more interesting test of arrays.
+array(val) fibs;
+fibs.resize(10);
+fibs[0] = 0;
+fibs[1] = 1;
+val index = 2;
+while (index < fibs.size()) {
+  fibs[index] = fibs[index - 1] + fibs[index - 2];
+  index = index + 1;
+}
+
+# Print the last number computed.
+print(fibs[fibs.size() - 1]);

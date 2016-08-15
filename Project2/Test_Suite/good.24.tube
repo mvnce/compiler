@@ -1,0 +1,6 @@
+# Make sure that random can be used inside of random.
+val sides = 6;
+val roll = random(sides) + 1;
+val roll2 = random(random(sides) + sides);
+print(roll);
+print(roll2);

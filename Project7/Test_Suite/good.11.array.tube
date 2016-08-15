@@ -1,0 +1,10 @@
+# Testing calling a function with an argument that was indexed into.
+
+define char PrintChar(char a) {
+  print(a);
+  return a;
+}
+
+string name = "HITHERE";
+
+PrintChar(name[4]);

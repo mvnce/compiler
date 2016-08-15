@@ -1,0 +1,5 @@
+# Test mock-declaring of variables.
+val this_is_my_val;
+char and_my_char;
+string also_my_string;
+

@@ -1,0 +1,3 @@
+# A mult-line command
+val a =
+ 5.9;

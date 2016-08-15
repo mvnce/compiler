@@ -1,0 +1,19 @@
+# Print only the letters from a string.
+
+string test_str = "abc D3F#GHI";
+print("All chars: ", test_str);
+
+val index_test = 0;
+val index_good = 0;
+while (index_test < test_str.size()) {
+  char cur_char = test_str[index_test];
+  if ( cur_char >= 'a' && cur_char <= 'z' ||
+       cur_char >= 'A' && cur_char <= 'Z' ) {
+    test_str[index_good] = cur_char;
+    index_good = index_good + 1;
+  }
+  index_test = index_test + 1;
+}
+test_str.resize(index_good);
+
+print("Letters only: ", test_str);

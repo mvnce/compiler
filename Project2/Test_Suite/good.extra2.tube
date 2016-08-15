@@ -1,0 +1,2 @@
+# Can we set values of multiple variabels on the same line?
+val a=1, b=2, c=3;

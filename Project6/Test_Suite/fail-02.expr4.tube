@@ -1,0 +1,3 @@
+# Result of comparison is always an int - cannot be compared to a char
+
+print(('a' < 'b')  < 'c');

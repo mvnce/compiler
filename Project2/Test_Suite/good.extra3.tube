@@ -1,0 +1,5 @@
+# Can we use variables that were all set on the same line.
+val a=1, b=2, c=3;
+
+val d=a+b+c, e=a*b*c;
+a = e / d;

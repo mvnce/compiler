@@ -1,0 +1,62 @@
+# Ouput from Dr. Charles Ofria's sample compiler.
+  val_copy 6 s11  
+  random s11 s12  
+  val_copy 1 s13  
+  add s12 s13 s14 
+  val_copy s14 s1  
+  val_copy 6 s15  
+  random s15 s16  
+  val_copy 1 s17  
+  add s16 s17 s18 
+  val_copy s18 s2  
+  val_copy 6 s19  
+  random s19 s20  
+  val_copy 1 s21  
+  add s20 s21 s22 
+  val_copy s22 s3  
+  val_copy 6 s23  
+  random s23 s24  
+  val_copy 1 s25  
+  add s24 s25 s26 
+  val_copy s26 s4  
+  val_copy 6 s27  
+  random s27 s28  
+  val_copy 1 s29  
+  add s28 s29 s30 
+  val_copy s30 s5  
+  val_copy 6 s31  
+  random s31 s32  
+  val_copy 1 s33  
+  add s32 s33 s34 
+  val_copy s34 s6  
+  val_copy 6 s35  
+  random s35 s36  
+  val_copy 1 s37  
+  add s36 s37 s38 
+  val_copy s38 s7  
+  val_copy 6 s39  
+  random s39 s40  
+  val_copy 1 s41  
+  add s40 s41 s42 
+  val_copy s42 s8  
+  val_copy 6 s43  
+  random s43 s44  
+  val_copy 1 s45  
+  add s44 s45 s46 
+  val_copy s46 s9  
+  val_copy 6 s47  
+  random s47 s48  
+  val_copy 1 s49  
+  add s48 s49 s50 
+  val_copy s50 s10  
+  out_val s1   
+  out_val s2   
+  out_val s3   
+  out_val s4   
+  out_val s5   
+  out_val s6   
+  out_val s7   
+  out_val s8   
+  out_val s9   
+  out_val s10   
+  out_char '\n'                         # End print statements with a newline.

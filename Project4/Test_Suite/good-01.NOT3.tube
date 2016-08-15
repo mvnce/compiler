@@ -1,0 +1,4 @@
+# Make sure NOT does always return 1 when operating on 0.
+
+print(!0);   # Should print 1
+print(!!7);  # Should also print 1

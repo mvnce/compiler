@@ -1,0 +1,12 @@
+# Testing one function calling another (but no actual recursion)
+
+define val Good4(val x) {
+  return x * 4;
+}
+
+define val Good5(val y) {
+  return Good4(y);
+}
+
+print(Good5(25));
+

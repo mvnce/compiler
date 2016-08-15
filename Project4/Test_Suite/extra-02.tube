@@ -1,0 +1,5 @@
+# Continue outside of loop
+while(1) {
+  break;
+}
+continue;

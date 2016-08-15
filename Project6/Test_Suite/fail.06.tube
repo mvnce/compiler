@@ -1,0 +1,2 @@
+# You may only have one type inside of an array.
+array(val, char) my_array;

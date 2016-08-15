@@ -1,0 +1,7 @@
+# Incorrect arg count.
+
+define val Fail6(val a, val b) {
+  return a+b;
+}
+
+print(Fail6(3));

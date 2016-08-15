@@ -1,0 +1,10 @@
+# You cannot use a variable after it has gone out of scope even at the same scope level!
+
+val a = 20;
+{
+  val b = 0;
+}
+{
+  print(a);
+  print(b);
+}

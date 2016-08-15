@@ -1,0 +1,5 @@
+# Make sure that array(val) and array(char) are not allowed to be interchangable.
+
+array(val) ai;
+array(char) ac;
+ai = ac;

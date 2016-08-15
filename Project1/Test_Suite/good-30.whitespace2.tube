@@ -1,0 +1,10 @@
+# One more whitespace test.
+"Special whitespace	in strings     should stay!!";
+
+
+
+
+
+
+
+"And blank lines should be counted correctly!";

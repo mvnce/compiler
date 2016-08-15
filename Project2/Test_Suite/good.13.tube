@@ -1,0 +1,5 @@
+# Testing compound operators.
+val a = 3;
+a += 5;
+val b = 6;
+b *= a;

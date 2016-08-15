@@ -1,0 +1,7 @@
+# A basic if-else test
+
+val a = 10;
+if (a < 20) a += 15; else a *= 4;
+if (a < 20) a += 15; else a *= 4;
+
+print(a); # 100

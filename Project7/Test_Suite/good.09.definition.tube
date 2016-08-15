@@ -1,0 +1,44 @@
+# Testing multiple returns in a function.
+
+define array(val) zeros(val new_size) {
+  array(val) out_array;
+  out_array.resize(new_size);
+  val i = 0;
+  while (i < new_size) {
+    out_array[i] = 0;
+    i += 1;
+  }
+  return out_array;
+}
+
+define val DistanceSquared(array(val) vector) {
+  if (vector.size() != 3) {
+    return -1;
+  }
+
+  return vector[0]*vector[0] + vector[1]*vector[1] + vector[2]*vector[2];
+}
+
+array(val) alpha = zeros(3);
+array(val) beta = zeros(4);
+alpha[0] = 2;
+alpha[1] = 3;
+alpha[2] = 4;
+
+beta[1] = 5;
+
+val alphaResult = DistanceSquared(alpha);
+val betaResult = DistanceSquared(beta);
+if (alphaResult == -1) {
+  print("Invalid alpha vector");
+} else {
+  print("Good alpha vector");
+}
+print(alpha, "  ", alphaResult);
+
+if (betaResult == -1) {
+  print("Invalid beta vector");
+} else {
+  print("Good beta vector");
+}
+print(beta, "  ", betaResult);

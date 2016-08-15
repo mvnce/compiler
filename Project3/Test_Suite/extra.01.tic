@@ -1,0 +1,21 @@
+# Ouput from Dr. Charles Ofria's sample compiler.
+  val_copy 6 s3  
+  random s3 s4  
+  val_copy s4 s1  
+  val_copy 4 s5  
+  test_less s1 s5 s6 
+  jump_if_0 s6 ternary_false_0  
+  val_copy 5 s8  
+  add s1 s8 s9 
+  val_copy s9 s7  
+  jump ternary_end_1   
+ternary_false_0: 
+  val_copy 4 s10  
+  val_copy 9 s11  
+  add s10 s11 s12 
+  val_copy s12 s7  
+ternary_end_1: 
+  val_copy s7 s2  
+  out_val s1   
+  out_val s2   
+  out_char '\n'                         # End print statements with a newline.

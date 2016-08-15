@@ -1,0 +1,7 @@
+# A return outside of a function.
+
+define val Fail4(val x) {
+  return x + x/2;
+}
+
+return 7;

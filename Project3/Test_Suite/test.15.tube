@@ -1,0 +1,8 @@
+# Operator precedence 5: Mixing && and ||
+print(0 || 1 && 0 || 0);           # False!
+print(0 || 1 && 1 || 0);           # True!
+print(1 && 0 || 0 && 1);           # False!
+print(1 && 1 || 1 && 0);           # True!   (but only if precendence is correct!)
+print(1 && (1 || 1) && 0);         # False!
+print(1 && 1 && 1 && 1 && 0 && 1); # False!
+print(0 || 0 || 0 || 0 || 1 || 1); # True!

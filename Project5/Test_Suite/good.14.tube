@@ -1,0 +1,4 @@
+# Make sure that string and array(char) types are interchangable.
+array(char) test_string1 = "ABC";
+string test_string2 = test_string1;
+print(test_string2);

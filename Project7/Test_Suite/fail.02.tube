@@ -1,0 +1,11 @@
+# Fail because return type does not match return value.
+
+define val Fail2(val x) {
+  if (x < 0) {
+    return 'a';
+  }
+  return x;
+}
+
+print(Fail2(2));
+print(Fail2(-2));

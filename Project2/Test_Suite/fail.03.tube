@@ -1,0 +1,2 @@
+# Setting a defined variable = to nothing.
+val my_var =;

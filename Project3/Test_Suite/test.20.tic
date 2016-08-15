@@ -1,0 +1,202 @@
+# Ouput from Dr. Charles Ofria's sample compiler.
+  val_copy 2 s1  
+  out_val s1   
+  val_copy 0 s2  
+  out_val s2   
+  val_copy 2 s3  
+  out_val s3   
+  val_copy 0 s4  
+  out_val s4   
+  val_copy 2 s5  
+  out_val s5   
+  val_copy 0 s6  
+  out_val s6   
+  val_copy 2 s7  
+  out_val s7   
+  val_copy 0 s8  
+  out_val s8   
+  val_copy 2 s9  
+  out_val s9   
+  val_copy 0 s10  
+  out_val s10   
+  val_copy 2 s11  
+  out_val s11   
+  val_copy 0 s12  
+  out_val s12   
+  val_copy 2 s13  
+  out_val s13   
+  val_copy 0 s14  
+  out_val s14   
+  val_copy 2 s15  
+  out_val s15   
+  val_copy 0 s16  
+  out_val s16   
+  val_copy 2 s17  
+  out_val s17   
+  val_copy 0 s18  
+  out_val s18   
+  val_copy 2 s19  
+  out_val s19   
+  val_copy 0 s20  
+  out_val s20   
+  val_copy 2 s21  
+  out_val s21   
+  val_copy 0 s22  
+  out_val s22   
+  val_copy 2 s23  
+  out_val s23   
+  val_copy 0 s24  
+  out_val s24   
+  val_copy 2 s25  
+  out_val s25   
+  val_copy 0 s26  
+  out_val s26   
+  val_copy 2 s27  
+  out_val s27   
+  val_copy 0 s28  
+  out_val s28   
+  val_copy 2 s29  
+  out_val s29   
+  val_copy 0 s30  
+  out_val s30   
+  val_copy 2 s31  
+  out_val s31   
+  val_copy 0 s32  
+  out_val s32   
+  val_copy 2 s33  
+  out_val s33   
+  val_copy 0 s34  
+  out_val s34   
+  val_copy 2 s35  
+  out_val s35   
+  val_copy 0 s36  
+  out_val s36   
+  val_copy 2 s37  
+  out_val s37   
+  val_copy 0 s38  
+  out_val s38   
+  val_copy 2 s39  
+  out_val s39   
+  val_copy 0 s40  
+  out_val s40   
+  val_copy 2 s41  
+  out_val s41   
+  val_copy 0 s42  
+  out_val s42   
+  val_copy 2 s43  
+  out_val s43   
+  val_copy 0 s44  
+  out_val s44   
+  val_copy 2 s45  
+  out_val s45   
+  val_copy 0 s46  
+  out_val s46   
+  val_copy 2 s47  
+  out_val s47   
+  val_copy 0 s48  
+  out_val s48   
+  val_copy 2 s49  
+  out_val s49   
+  val_copy 0 s50  
+  out_val s50   
+  val_copy 2 s51  
+  out_val s51   
+  val_copy 0 s52  
+  out_val s52   
+  val_copy 2 s53  
+  out_val s53   
+  val_copy 0 s54  
+  out_val s54   
+  val_copy 2 s55  
+  out_val s55   
+  val_copy 0 s56  
+  out_val s56   
+  val_copy 2 s57  
+  out_val s57   
+  val_copy 0 s58  
+  out_val s58   
+  val_copy 2 s59  
+  out_val s59   
+  val_copy 0 s60  
+  out_val s60   
+  val_copy 2 s61  
+  out_val s61   
+  val_copy 0 s62  
+  out_val s62   
+  val_copy 2 s63  
+  out_val s63   
+  val_copy 0 s64  
+  out_val s64   
+  val_copy 2 s65  
+  out_val s65   
+  val_copy 0 s66  
+  out_val s66   
+  val_copy 2 s67  
+  out_val s67   
+  val_copy 0 s68  
+  out_val s68   
+  val_copy 2 s69  
+  out_val s69   
+  val_copy 0 s70  
+  out_val s70   
+  val_copy 2 s71  
+  out_val s71   
+  val_copy 0 s72  
+  out_val s72   
+  val_copy 2 s73  
+  out_val s73   
+  val_copy 0 s74  
+  out_val s74   
+  val_copy 2 s75  
+  out_val s75   
+  val_copy 0 s76  
+  out_val s76   
+  val_copy 2 s77  
+  out_val s77   
+  val_copy 0 s78  
+  out_val s78   
+  val_copy 2 s79  
+  out_val s79   
+  val_copy 0 s80  
+  out_val s80   
+  val_copy 2 s81  
+  out_val s81   
+  val_copy 0 s82  
+  out_val s82   
+  val_copy 2 s83  
+  out_val s83   
+  val_copy 0 s84  
+  out_val s84   
+  val_copy 2 s85  
+  out_val s85   
+  val_copy 0 s86  
+  out_val s86   
+  val_copy 2 s87  
+  out_val s87   
+  val_copy 0 s88  
+  out_val s88   
+  val_copy 2 s89  
+  out_val s89   
+  val_copy 0 s90  
+  out_val s90   
+  val_copy 2 s91  
+  out_val s91   
+  val_copy 0 s92  
+  out_val s92   
+  val_copy 2 s93  
+  out_val s93   
+  val_copy 0 s94  
+  out_val s94   
+  val_copy 2 s95  
+  out_val s95   
+  val_copy 0 s96  
+  out_val s96   
+  val_copy 2 s97  
+  out_val s97   
+  val_copy 0 s98  
+  out_val s98   
+  val_copy 2 s99  
+  out_val s99   
+  val_copy 0 s100  
+  out_val s100   
+  out_char '\n'                         # End print statements with a newline.

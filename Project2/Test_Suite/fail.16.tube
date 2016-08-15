@@ -1,0 +1,2 @@
+# Trying to do a compound assignment on a newly created variable
+val doubleme *= 2;

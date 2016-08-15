@@ -1,0 +1,16 @@
+# Try using an array index on the left side of a compound operator
+array(val) squares;
+val num_squares = 10;
+squares.resize(num_squares);
+val i = 0;
+while (i < num_squares) {
+  squares[i] = i;
+  squares[i] *= squares[i];
+  i += 1;
+}
+
+i = 0;
+while (i < num_squares) {
+  print(squares[i]);
+  i += 1;
+}
